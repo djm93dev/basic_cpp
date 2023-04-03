@@ -12,8 +12,11 @@ int main()
 		
 		std::cout << i << std::endl;
 		
-		if (i == 4)
+		if (i == 3)
 			break; // Break out of the loop
+
+		if (i == 4)
+			return 0; // Return from the function
 	}
 
 	
