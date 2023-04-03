@@ -13,6 +13,6 @@ int main()
 	memset(buffer, 0, 8);
 
 
-	delete[] buffer;
+
 	std::cin.get();
 }
