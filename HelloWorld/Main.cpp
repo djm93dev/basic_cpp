@@ -38,5 +38,8 @@ int main()
 	std::cout << longDoubleVariable << std::endl;
 	std::cout << character << std::endl;
 	std::cout << boolean << std::endl;
+
+	std::cout << sizeof(bool) << std::endl; // 1 byte
+		
 	std::cin.get();
 }
