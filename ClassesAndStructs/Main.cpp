@@ -1,9 +1,23 @@
 #include <iostream>
 
 
-class Player
+//class Player  // class is private by default
+//{
+//public:  
+//	int x, y;
+//	int speed = 1;
+//
+//	void Move(int xa, int ya)
+//	{
+//		x += xa * speed;
+//		y += ya * speed;
+//	}
+//
+//};
+
+
+struct Player  // struct is public by default
 {
-public:
 	int x, y;
 	int speed = 1;
 
