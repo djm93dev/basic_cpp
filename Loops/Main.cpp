@@ -16,6 +16,14 @@ int main()
 		a++;
 	}
 
+	int b = 0;
+	
+	do // This is a simple do while loop, it will run 5 times by incrementing a by 1 each time.
+	{
+		Log("Hello World!");
+		b++;
+	} while (b < 5);
+
 	std::cin.get();
 	
 }
