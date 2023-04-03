@@ -1,8 +1,9 @@
-#include<iostream>
+#include <iostream>
 
 int main()
 {
-	std::cout << "Hello World!" << std::endl;
-	std::cin.get();
+	int variable = 8;
 	
+	std::cout << variable << std::endl;
+	std::cin.get();
 }
