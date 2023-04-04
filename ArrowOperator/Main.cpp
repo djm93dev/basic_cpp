@@ -8,6 +8,25 @@ public:
 	
 };
 
+class ScopedPtr
+{
+private:
+	Entity* m_Ptr;
+public:
+	ScopedPtr(Entity* ptr)
+		: m_Ptr(ptr)
+	{
+	}
+
+	~ScopedPtr()
+	{
+		delete m_Ptr;
+	}
+
+	Entity* operator->() { return m_Ptr; }
+};
+
+
 int main()
 {
 	Entity e;
@@ -16,6 +35,9 @@ int main()
 	Entity* ptr = &e;
 	
 	ptr->Print(); // same as (*ptr).Print();
+
+	ScopedPtr e1 = new Entity();
+	e1->Print();
 	
 	std::cin.get();
 }
