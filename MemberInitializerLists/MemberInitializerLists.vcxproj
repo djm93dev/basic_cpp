@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{67650c8e-4704-47e2-84da-8456529d24aa}</ProjectGuid>
-    <RootNamespace>Mutable</RootNamespace>
+    <ProjectGuid>{9d15687e-04a7-4123-bd12-5c022791a12d}</ProjectGuid>
+    <RootNamespace>MemberInitializerLists</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
