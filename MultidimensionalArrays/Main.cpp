@@ -3,7 +3,6 @@
 int main()
 {
 
-	// int* array = new int[50]; // allocate 50 ints on the heap
 	
 	int** array2d = new int* [50]; // allocate 50 int* on the heap (each int* is a pointer to an int)
 
@@ -50,6 +49,22 @@ int main()
 	// delete array2d
 	delete[] array2d;
 	
+
+	int* array1d = new int[25]; // allocate 25 ints on the heap
+	for (int x = 0; x < 5; x++)
+	{
+		for (int y = 0; y < 5; y++)
+		{
+			array1d[x + y * 5] = x + y * 5; // set the value of each int in array1d
+		}
+	}
+
+	// loop through and print each int in array1d
+	
+	for (int i = 0; i < 25; i++)
+	{
+		std::cout << array1d[i] << std::endl;
+	}
 
 
 	std::cin.get();
